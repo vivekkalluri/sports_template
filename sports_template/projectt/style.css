@@ -1,0 +1,354 @@
+body{
+	margin:0px;
+	margin-bottom: 0px;
+}
+#header{
+	width: 100%;
+	height: 150px;
+	position: relative;
+	top: 0px;
+	z-index: 1;
+
+}
+.left{
+	width: 20%;
+	height: 150px;
+	float: left;
+	background: black;
+}
+.right{
+	width: 80%;
+	height: 150px;
+	float: right;
+}
+.top1{
+	width: 100%;
+	height: 75px;
+	position: relative;
+	background: black;
+	
+}
+.logo{
+	float: left;
+	text-align: center;
+
+}
+.social{
+	width:40%;
+	height: 75px;
+	float: right;
+	position:relative;
+
+}
+.social ul li {
+	display: inline-block;
+	float: left;
+	position: relative;
+	line-height: 20px;
+	top: 0px;
+	color:#999999;
+}
+.social ul {
+	margin-top: 10px;
+}
+.social ul li a{
+	 display:block;
+    font-weight: 800;
+    font-family:arial;
+    color:#999999;
+    text-align: center;
+    padding: 16px;
+}
+ul{
+	display:block;
+	list-style-type: none;
+	float: right;
+	position: relative;
+	right: 100px;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+h4 img{
+	position: relative;
+	left: 30px;
+	color: #999999;
+	bottom: 10px;
+}
+.navv  ul li,.login ul li{
+	float: left;
+	position: relative;
+	top: 10px;
+	color:#999999;
+}
+.navv ul li a {
+    display:block;
+    font-weight: 800;
+    font-family:arial;
+    color:#999999;
+    text-align: center;
+    padding: 16px;
+}
+*{
+	box-sizing:border-box;
+}
+a:link{
+	text-decoration: none;
+}
+.top2{
+	background: black;
+	width: 100%;
+	height: 75px;
+	position: sticky;
+	top: 0px;
+	z-index: 
+}
+.navv{
+	width: 90%;
+	height: 75px;
+	float: right;
+	position: relative;
+	right:100px;
+	top: 0px;
+	text-align: center;
+}
+.login{
+	float: right;
+	position: relative;
+	padding: 11px;
+	padding-top: 16px;
+	right: -10px;
+}
+ul li a:hover{
+	color: white;
+}
+.lbox{
+	width: 320px;
+	height: 400px;
+	background:white;
+	float: left;
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+.rbox{
+	width: 320px;
+	height: 400px;
+	background:white;
+	float: right;
+	position: relative;
+	top: 100px;
+	right:  100px;
+}
+.btn{
+	display: inline-block;
+    color: black; 
+    text-align: center;
+    text-decoration: none!important;
+    font-weight: 700;
+    line-height: 2em;
+    font-family: Arial;
+    font-size: 25px;
+    position: relative;
+    top: -50px;
+    left: 110px;
+}
+.matter{
+	width: 100%;
+	height: 200px;
+	background:rgba(6, 6, 6, 0.77);
+	color: white;
+	text-align: justify;
+	font-size: 17px;
+	position: absolute;
+	line-height: 1.8em;
+	padding: 16px ;
+	padding-bottom: 16px;
+}
+
+.parallaxhockey{
+	background-image: url("Hockey-banner.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxhockey2{
+	background-image: url("Hockey-banner.jpg");
+	min-height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.parallaxbadminton{
+	background-image: url("badminton2.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxbadminton2{
+	background-image: url("badminton2.jpg");
+	min-height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxgolf{
+	background-image: url("golf1.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxgolf2{
+	background-image: url("golf1.jpg");
+	min-height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxcricket{
+	background-image: url("VIRAT.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxcricket2{
+	background-image: url("VIRAT.jpg");
+	min-height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxfootball{
+	background-image: url("football.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxfootball2{
+	background-image: url("football.jpg");
+	min-height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxtennis{
+	background-image: url("tennis1.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxtennis2{
+	background-image: url("tennis1.jpg");
+	min-height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxwrestling{
+	background-image: url("wrestling.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallaxwrestling2{
+	background-image: url("wrestling.jpg");
+	min-height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.footer{
+	width: 100%;
+	background: grey;
+	display: block;
+	
+
+}
+.foot{
+	width: 24.7%;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+.foot1{
+	width: 25%;
+	height: 250px;
+	display: inline-block;
+	text-align: center;
+}
+.foot ul li a{
+	display:block;
+    font-weight: 800;
+    font-family:arial;
+    color:#999999;
+    text-align: center;
+    padding: 16px;
+}
+.foot ul li {
+	float: left;
+	position: relative;
+	top: 10px;
+	color:#999999;
+}
+
+.f1{
+	width: 100%;
+	height: 50px;
+	background: #222;
+	color:#999999;
+}
+.f2{
+	width: 100%;
+	height: 250px;
+	background: #333;
+	color: #999999;
+	clear: both;
+}
+.footlist{
+	display:inline-block;
+    font-weight: 400;
+    font-family:arial;
+    color:#999999;
+    padding-top: 10px;
+    margin-right: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.footlist ul {
+	 font-weight: 400;
+    font-family:arial;
+    color:#999999;
+    
+}
+.footlist ul li a:hover{
+	color: white;
+}
+.foot ul li a:hover{
+	color: white;
+}
